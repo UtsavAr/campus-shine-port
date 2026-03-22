@@ -4,36 +4,12 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Spotify Clone",
     description:
-      "Full-stack e-commerce app with cart, checkout, payment integration, and admin dashboard.",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "AI Chat Application",
-    description:
-      "Real-time chat app with AI-powered responses, user authentication, and message history.",
-    tech: ["Next.js", "OpenAI", "PostgreSQL", "WebSockets"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Task Management Tool",
-    description:
-      "Collaborative project management tool with kanban boards, real-time updates, and analytics.",
-    tech: ["React", "TypeScript", "Supabase", "Tailwind"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Portfolio Website",
-    description:
-      "This very portfolio — built with React, Tailwind, and Framer Motion for smooth animations.",
-    tech: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "#",
-    live: "#",
+      "A Spotify music application clone featuring a responsive UI with playlist browsing, music player controls, and a sleek dark-themed design.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/UtsavAr/Spotify-Website-Clone",
+    live: "",
   },
 ];
 
