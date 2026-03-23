@@ -11,6 +11,14 @@ const projects = [
     github: "https://github.com/UtsavAr/Spotify-Website-Clone",
     live: "",
   },
+  {
+    title: "Online Leaderboard Tracker",
+    description:
+      "A school-level leaderboard tracker where students can check their marks and rankings. Supports adding and deleting student entries, and allows downloading the leaderboard data as an Excel file.",
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "",
+    live: "",
+  },
 ];
 
 const ProjectsSection = () => {
