@@ -45,7 +45,7 @@ const SkillsSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: catIdx * 0.15, duration: 0.5 }}
-              className="glass-card p-6 hover:glow-border transition-all group"
+              className="glass-card p-8 hover:glow-border transition-all group min-h-[180px]"
             >
               <h3 className="font-mono text-primary text-sm font-semibold mb-4">
                 {cat.title}
