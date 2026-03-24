@@ -50,6 +50,14 @@ const HeroSection = () => {
           >
             View Projects
           </a>
+          <a
+            href="#"
+            download
+            className="px-6 py-3 rounded-lg border border-primary/50 text-primary font-semibold hover:bg-primary/10 transition-colors inline-flex items-center gap-2"
+          >
+            <Download size={18} />
+            Resume
+          </a>
         </motion.div>
 
         <motion.div
