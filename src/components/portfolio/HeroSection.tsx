@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import profileImg from "@/assets/profile.png";
 
 const HeroSection = () => {
@@ -49,6 +49,14 @@ const HeroSection = () => {
             className="px-6 py-3 rounded-lg border border-border text-foreground font-semibold hover:border-primary/50 transition-colors"
           >
             View Projects
+          </a>
+          <a
+            href="#"
+            download
+            className="px-6 py-3 rounded-lg border border-primary/50 text-primary font-semibold hover:bg-primary/10 transition-colors inline-flex items-center gap-2"
+          >
+            <Download size={18} />
+            Resume
           </a>
         </motion.div>
 
