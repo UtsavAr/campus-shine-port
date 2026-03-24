@@ -5,6 +5,7 @@ import SkillsSection from "@/components/portfolio/SkillsSection";
 import ProjectsSection from "@/components/portfolio/ProjectsSection";
 import EducationSection from "@/components/portfolio/EducationSection";
 import CertificationsSection from "@/components/portfolio/CertificationsSection";
+import TrainingSection from "@/components/portfolio/TrainingSection";
 import ContactSection from "@/components/portfolio/ContactSection";
 import Footer from "@/components/portfolio/Footer";
 
