@@ -39,16 +39,16 @@ const ProjectsSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, i) => (
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: i * 0.1, duration: 0.5 }}
-              className="glass-card p-6 group hover:glow-border transition-all"
+              className="glass-card p-8 group hover:glow-border transition-all"
             >
-              <div className="flex items-start justify-between mb-3">
+              <div className="flex items-start justify-between mb-4">
                 <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
                   {project.title}
                 </h3>
@@ -67,7 +67,7 @@ const ProjectsSection = () => {
                   </a>
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+              <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
                 {project.description}
               </p>
               <div className="flex flex-wrap gap-2">
