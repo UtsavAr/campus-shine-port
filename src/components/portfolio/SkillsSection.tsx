@@ -47,7 +47,7 @@ const SkillsSection = () => {
               transition={{ delay: catIdx * 0.15, duration: 0.5 }}
               className="glass-card p-8 hover:glow-border transition-all group min-h-[180px]"
             >
-              <h3 className="font-mono text-primary text-sm font-semibold mb-4">
+              <h3 className="font-mono text-primary text-sm font-semibold mb-5">
                 {cat.title}
               </h3>
               <div className="flex flex-wrap gap-2">
