@@ -51,7 +51,9 @@ const HeroSection = () => {
             View Projects
           </a>
           <a
-            href="#"
+            href="https://drive.google.com/file/d/1WItiS32bgp8hB0h_R7BJ-I1k4p9P5KIu/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
             download
             className="px-6 py-3 rounded-lg border border-primary/50 text-primary font-semibold hover:bg-primary/10 transition-colors inline-flex items-center gap-2"
           >
